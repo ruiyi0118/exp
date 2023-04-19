@@ -93,6 +93,7 @@ public class StudentTest {
      */
     private static List<Student> generateStudents() {
         List<Student> students = new ArrayList<>();
+
         students.add(new Student("张三", 18, "北京市海淀区", new Date()));
         students.add(new Student("李四", 20, "上海市浦东新区", new Date()));
         students.add(new Student("王五", 22, "广州市天河区", new Date()));
